@@ -9,7 +9,7 @@ mkdir $DIR
 
 timeout $TIME cpuminer --benchmark -a scrypt >> $DIR/scrypt.log
 timeout $TIME cpuminer --benchmark -a scrypt-jane >> $DIR/scrypt-jane.log
-timeout $TIME cpuminer --benchmark -a sha245d >> $DIR/sha256d.log
+timeout $TIME cpuminer --benchmark -a sha256d >> $DIR/sha256d.log
 timeout $TIME cpuminer --benchmark -a axiom >> $DIR/axiom.log
 timeout $TIME cpuminer --benchmark -a bastion >> $DIR/bastion.log
 timeout $TIME cpuminer --benchmark -a blake >> $DIR/blake.log
